@@ -1,28 +1,57 @@
 # AXR Icons
 
-Technology-inspired, original mascot SVGs for AXROBERT / AXR Stats.
+**Small icons. Big personality.** Original illustrated stack mascots for AXROBERT / AXR Stats.
 
-**V2 artwork candidate.** 30 individual technology-inspired vectors have replaced the 10 repeated placeholder silhouettes. The art remains in review and is not yet approved for production.
+> [!IMPORTANT]
+> **Artwork is under active design review.** This branch contains concepts, not an approved icon pack. Shape clarity, consistent character proportions and recognizability matter more than shipping lots of mediocre icons.
 
-## Preview
+## All 30 icons — visual gallery
 
-Run `python -m http.server 8000` in the repository root, then open <http://localhost:8000>. Search the responsive gallery, filter stacks and click a tile to download SVG.
+Click any icon to view/download its full-size, editable SVG. The grid below shows **every model side by side** without opening each file individually.
 
-## Icons
+| | | | | | |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| <a href="icons/linux.svg"><img src="icons/linux.svg" width="72" height="72" alt="Linux icon"></a><br><sub><b>Linux</b></sub> | <a href="icons/github.svg"><img src="icons/github.svg" width="72" height="72" alt="GitHub icon"></a><br><sub><b>GitHub</b></sub> | <a href="icons/python.svg"><img src="icons/python.svg" width="72" height="72" alt="Python icon"></a><br><sub><b>Python</b></sub> | <a href="icons/javascript.svg"><img src="icons/javascript.svg" width="72" height="72" alt="JavaScript icon"></a><br><sub><b>JavaScript</b></sub> | <a href="icons/typescript.svg"><img src="icons/typescript.svg" width="72" height="72" alt="TypeScript icon"></a><br><sub><b>TypeScript</b></sub> | <a href="icons/html.svg"><img src="icons/html.svg" width="72" height="72" alt="HTML icon"></a><br><sub><b>HTML</b></sub> |
+| <a href="icons/css.svg"><img src="icons/css.svg" width="72" height="72" alt="CSS icon"></a><br><sub><b>CSS</b></sub> | <a href="icons/git.svg"><img src="icons/git.svg" width="72" height="72" alt="Git icon"></a><br><sub><b>Git</b></sub> | <a href="icons/docker.svg"><img src="icons/docker.svg" width="72" height="72" alt="Docker icon"></a><br><sub><b>Docker</b></sub> | <a href="icons/kubernetes.svg"><img src="icons/kubernetes.svg" width="72" height="72" alt="Kubernetes icon"></a><br><sub><b>Kubernetes</b></sub> | <a href="icons/rust.svg"><img src="icons/rust.svg" width="72" height="72" alt="Rust icon"></a><br><sub><b>Rust</b></sub> | <a href="icons/react.svg"><img src="icons/react.svg" width="72" height="72" alt="React icon"></a><br><sub><b>React</b></sub> |
+| <a href="icons/nextjs.svg"><img src="icons/nextjs.svg" width="72" height="72" alt="Next.js icon"></a><br><sub><b>Next.js</b></sub> | <a href="icons/nodejs.svg"><img src="icons/nodejs.svg" width="72" height="72" alt="Node.js icon"></a><br><sub><b>Node.js</b></sub> | <a href="icons/postgresql.svg"><img src="icons/postgresql.svg" width="72" height="72" alt="PostgreSQL icon"></a><br><sub><b>PostgreSQL</b></sub> | <a href="icons/mysql.svg"><img src="icons/mysql.svg" width="72" height="72" alt="MySQL icon"></a><br><sub><b>MySQL</b></sub> | <a href="icons/mongodb.svg"><img src="icons/mongodb.svg" width="72" height="72" alt="MongoDB icon"></a><br><sub><b>MongoDB</b></sub> | <a href="icons/redis.svg"><img src="icons/redis.svg" width="72" height="72" alt="Redis icon"></a><br><sub><b>Redis</b></sub> |
+| <a href="icons/go.svg"><img src="icons/go.svg" width="72" height="72" alt="Go icon"></a><br><sub><b>Go</b></sub> | <a href="icons/java.svg"><img src="icons/java.svg" width="72" height="72" alt="Java icon"></a><br><sub><b>Java</b></sub> | <a href="icons/c.svg"><img src="icons/c.svg" width="72" height="72" alt="C icon"></a><br><sub><b>C</b></sub> | <a href="icons/cpp.svg"><img src="icons/cpp.svg" width="72" height="72" alt="C++ icon"></a><br><sub><b>C++</b></sub> | <a href="icons/bash.svg"><img src="icons/bash.svg" width="72" height="72" alt="Bash icon"></a><br><sub><b>Bash</b></sub> | <a href="icons/archlinux.svg"><img src="icons/archlinux.svg" width="72" height="72" alt="Arch Linux icon"></a><br><sub><b>Arch Linux</b></sub> |
+| <a href="icons/ubuntu.svg"><img src="icons/ubuntu.svg" width="72" height="72" alt="Ubuntu icon"></a><br><sub><b>Ubuntu</b></sub> | <a href="icons/debian.svg"><img src="icons/debian.svg" width="72" height="72" alt="Debian icon"></a><br><sub><b>Debian</b></sub> | <a href="icons/windows.svg"><img src="icons/windows.svg" width="72" height="72" alt="Windows icon"></a><br><sub><b>Windows</b></sub> | <a href="icons/macos.svg"><img src="icons/macos.svg" width="72" height="72" alt="macOS icon"></a><br><sub><b>macOS</b></sub> | <a href="icons/figma.svg"><img src="icons/figma.svg" width="72" height="72" alt="Figma icon"></a><br><sub><b>Figma</b></sub> | <a href="icons/tailwindcss.svg"><img src="icons/tailwindcss.svg" width="72" height="72" alt="Tailwind CSS icon"></a><br><sub><b>Tailwind CSS</b></sub> |
 
-<img src="icons/linux.svg" width="34" height="34" alt="Linux"/> **Linux** · <img src="icons/github.svg" width="34" height="34" alt="GitHub"/> **GitHub** · <img src="icons/python.svg" width="34" height="34" alt="Python"/> **Python** · <img src="icons/javascript.svg" width="34" height="34" alt="JavaScript"/> **JavaScript** · <img src="icons/typescript.svg" width="34" height="34" alt="TypeScript"/> **TypeScript** · <img src="icons/html.svg" width="34" height="34" alt="HTML"/> **HTML** · <img src="icons/css.svg" width="34" height="34" alt="CSS"/> **CSS** · <img src="icons/git.svg" width="34" height="34" alt="Git"/> **Git** · <img src="icons/docker.svg" width="34" height="34" alt="Docker"/> **Docker** · <img src="icons/kubernetes.svg" width="34" height="34" alt="Kubernetes"/> **Kubernetes** · <img src="icons/rust.svg" width="34" height="34" alt="Rust"/> **Rust** · <img src="icons/react.svg" width="34" height="34" alt="React"/> **React** · <img src="icons/nextjs.svg" width="34" height="34" alt="Next.js"/> **Next.js** · <img src="icons/nodejs.svg" width="34" height="34" alt="Node.js"/> **Node.js** · <img src="icons/postgresql.svg" width="34" height="34" alt="PostgreSQL"/> **PostgreSQL** · <img src="icons/mysql.svg" width="34" height="34" alt="MySQL"/> **MySQL** · <img src="icons/mongodb.svg" width="34" height="34" alt="MongoDB"/> **MongoDB** · <img src="icons/redis.svg" width="34" height="34" alt="Redis"/> **Redis** · <img src="icons/go.svg" width="34" height="34" alt="Go"/> **Go** · <img src="icons/java.svg" width="34" height="34" alt="Java"/> **Java** · <img src="icons/c.svg" width="34" height="34" alt="C"/> **C** · <img src="icons/cpp.svg" width="34" height="34" alt="C++"/> **C++** · <img src="icons/bash.svg" width="34" height="34" alt="Bash"/> **Bash** · <img src="icons/archlinux.svg" width="34" height="34" alt="Arch Linux"/> **Arch Linux** · <img src="icons/ubuntu.svg" width="34" height="34" alt="Ubuntu"/> **Ubuntu** · <img src="icons/debian.svg" width="34" height="34" alt="Debian"/> **Debian** · <img src="icons/windows.svg" width="34" height="34" alt="Windows"/> **Windows** · <img src="icons/macos.svg" width="34" height="34" alt="macOS"/> **macOS** · <img src="icons/figma.svg" width="34" height="34" alt="Figma"/> **Figma** · <img src="icons/tailwindcss.svg" width="34" height="34" alt="Tailwind CSS"/> **Tailwind CSS**
+<sub>Rendered from the actual SVG files. Every cell uses a 72 × 72 px preview; the vector source scales to 16, 24, 32, 64 and larger pixel sizes.</sub>
 
-## Integration
+## Explore the interactive gallery
 
-- `registry.json`: stable slug and asset mappings with categories.
-- `icons/*.svg`: scalable standalone art using an identical tile canvas.
-- `docs/DESIGN-SYSTEM.md`: core design rules.
-- `docs/AI-ICON-CONTRACT.md`: AI-assisted authoring recipe.
-- `scripts/validate.py`: local validator (`python scripts/validate.py`).
-- `.github/workflows/svg-validate.yml`: GitHub validation.
+Start a local web server in the repository directory:
 
-Pin a released version, map stack slugs and show a fallback when an icon is missing. Do not use a moving PR branch in production. Human visual approval required.
+```bash
+python -m http.server 8000
+```
 
-## Licensing
+Open **http://localhost:8000** — search and category filtering work without external dependencies. For direct repository browsing, use the **branch selector** to choose `feat/mascot-icon-system-v1` until the PR is approved and merged.
 
-No license chosen: all rights reserved pending the author's decision. Technology names may be trademarks.
+## How new icons are created
+
+1. Read [the design system](docs/DESIGN-SYSTEM.md) and [the AI creation contract](docs/AI-ICON-CONTRACT.md).
+2. Choose a *distinct technology metaphor*, not a recolored copy of another mascot or a third-party logo.
+3. Draw an original standalone SVG with `viewBox="0 0 96 96"` and a uniform rounded tile; inspect at **16 / 24 / 32 / 64 px**.
+4. Register it in [registry.json](registry.json) using the stable machine-readable technology slug.
+5. Run `python scripts/validate.py` and inspect the full gallery at actual app size before requesting visual review.
+
+## Project layout
+
+| Path | Purpose |
+|:--|:--|
+| [icons/](icons/) | All 30 source SVG files |
+| [registry.json](registry.json) | Stack identifiers, display names and categories |
+| [docs/DESIGN-SYSTEM.md](docs/DESIGN-SYSTEM.md) | Mandatory geometry, color and illustration rules |
+| [docs/AI-ICON-CONTRACT.md](docs/AI-ICON-CONTRACT.md) | Generation workflow and acceptance criteria |
+| [index.html](index.html) | Searchable preview gallery |
+| [scripts/validate.py](scripts/validate.py) | XML, safety, duplicates and registry checks |
+
+## Integrating with AXR Stats
+
+No production integration yet. Once artwork is visually approved, tag a release and vendor or pin the SVG assets; map stack names to their slugs and provide a fallback for unknown technologies. Do not use a mutable draft branch as a production dependency.
+
+## License and ownership
+
+No public-use license chosen yet. All rights reserved until a license is selected. Technologies and brand names remain the property of their respective owners; this collection is not endorsed by them.
