@@ -1,0 +1,182 @@
+[
+  {
+    "slug": "linux",
+    "name": "Linux",
+    "category": "platform",
+    "file": "icons/linux.svg"
+  },
+  {
+    "slug": "github",
+    "name": "Github",
+    "category": "technology",
+    "file": "icons/github.svg"
+  },
+  {
+    "slug": "python",
+    "name": "Python",
+    "category": "technology",
+    "file": "icons/python.svg"
+  },
+  {
+    "slug": "javascript",
+    "name": "Javascript",
+    "category": "technology",
+    "file": "icons/javascript.svg"
+  },
+  {
+    "slug": "typescript",
+    "name": "Typescript",
+    "category": "technology",
+    "file": "icons/typescript.svg"
+  },
+  {
+    "slug": "html",
+    "name": "Html",
+    "category": "technology",
+    "file": "icons/html.svg"
+  },
+  {
+    "slug": "css",
+    "name": "Css",
+    "category": "technology",
+    "file": "icons/css.svg"
+  },
+  {
+    "slug": "git",
+    "name": "Git",
+    "category": "technology",
+    "file": "icons/git.svg"
+  },
+  {
+    "slug": "docker",
+    "name": "Docker",
+    "category": "technology",
+    "file": "icons/docker.svg"
+  },
+  {
+    "slug": "kubernetes",
+    "name": "Kubernetes",
+    "category": "technology",
+    "file": "icons/kubernetes.svg"
+  },
+  {
+    "slug": "rust",
+    "name": "Rust",
+    "category": "technology",
+    "file": "icons/rust.svg"
+  },
+  {
+    "slug": "react",
+    "name": "React",
+    "category": "framework",
+    "file": "icons/react.svg"
+  },
+  {
+    "slug": "nextjs",
+    "name": "Nextjs",
+    "category": "framework",
+    "file": "icons/nextjs.svg"
+  },
+  {
+    "slug": "nodejs",
+    "name": "Nodejs",
+    "category": "framework",
+    "file": "icons/nodejs.svg"
+  },
+  {
+    "slug": "postgresql",
+    "name": "Postgresql",
+    "category": "database",
+    "file": "icons/postgresql.svg"
+  },
+  {
+    "slug": "mysql",
+    "name": "Mysql",
+    "category": "database",
+    "file": "icons/mysql.svg"
+  },
+  {
+    "slug": "mongodb",
+    "name": "Mongodb",
+    "category": "database",
+    "file": "icons/mongodb.svg"
+  },
+  {
+    "slug": "redis",
+    "name": "Redis",
+    "category": "database",
+    "file": "icons/redis.svg"
+  },
+  {
+    "slug": "go",
+    "name": "Go",
+    "category": "technology",
+    "file": "icons/go.svg"
+  },
+  {
+    "slug": "java",
+    "name": "Java",
+    "category": "technology",
+    "file": "icons/java.svg"
+  },
+  {
+    "slug": "c",
+    "name": "C",
+    "category": "technology",
+    "file": "icons/c.svg"
+  },
+  {
+    "slug": "cpp",
+    "name": "C++",
+    "category": "technology",
+    "file": "icons/cpp.svg"
+  },
+  {
+    "slug": "bash",
+    "name": "Bash",
+    "category": "technology",
+    "file": "icons/bash.svg"
+  },
+  {
+    "slug": "archlinux",
+    "name": "Archlinux",
+    "category": "platform",
+    "file": "icons/archlinux.svg"
+  },
+  {
+    "slug": "ubuntu",
+    "name": "Ubuntu",
+    "category": "platform",
+    "file": "icons/ubuntu.svg"
+  },
+  {
+    "slug": "debian",
+    "name": "Debian",
+    "category": "platform",
+    "file": "icons/debian.svg"
+  },
+  {
+    "slug": "windows",
+    "name": "Windows",
+    "category": "platform",
+    "file": "icons/windows.svg"
+  },
+  {
+    "slug": "macos",
+    "name": "macOS",
+    "category": "platform",
+    "file": "icons/macos.svg"
+  },
+  {
+    "slug": "figma",
+    "name": "Figma",
+    "category": "technology",
+    "file": "icons/figma.svg"
+  },
+  {
+    "slug": "tailwindcss",
+    "name": "Tailwindcss",
+    "category": "framework",
+    "file": "icons/tailwindcss.svg"
+  }
+]

@@ -1,19 +1,21 @@
 # AXR Icons
 
-An original, cohesive mascot icon system for technology stacks.
+Original, technology-inspired mascot icons for the AXROBERT stack UI.
 
-This repository is the source of truth for stack icon illustrations used across AXROBERT projects. The design direction is playful, compact, crisp at small sizes, and uses rounded square color tiles, distinctive original white mascots and subtle eye/details — not copies of existing app icons.
+**Status: V1 concept prototypes, not approved final artwork.** The repository contains 30 scalable SVGs, a searchable catalog, a machine-readable registry and a design contract for AI-assisted iterations.
 
-> Initial repository bootstrap. The first icon catalog and build tools will be developed in a separate branch and proposed in a pull request.
+## Preview
 
-## Goals
+Run `python -m http.server 8000` in the repository root and open http://localhost:8000. GitHub Pages can also serve the static site after manually configuring Pages.
 
-- One consistent visual language across many stacks.
-- Source SVGs, scalable without losing detail.
-- Deterministic icon generation and validation.
-- A growing stack registry with accessible names and slugs.
-- Simple integration in AXR Stats and other apps.
+## Usage
 
-## License
+Read `registry.json` to obtain the icon path for each stack. SVGs live in `icons/<slug>.svg`. Do not rely on branch URLs for production: pin a release or vendor the assets into AXR Stats.
 
-No license has been chosen yet. Contributions and reuse outside this project require explicit permission until a license is added.
+## Quality bar
+
+This is a system scaffold, **not 30 finished unique illustrations**. Current assets use a small set of template silhouettes. Every icon should eventually gain a distinct illustration inspired by the technology, staying consistent with `docs/DESIGN-SYSTEM.md`. The reference moodboard is a *style reference* only, not a set of assets to copy.
+
+## Rights
+
+No license has been selected. All rights reserved pending owner decision. Stack names may be third-party trademarks.
