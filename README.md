@@ -5,6 +5,12 @@
 > [!IMPORTANT]
 > **Artwork is under active design review.** This branch contains concepts, not an approved icon pack. Shape clarity, consistent character proportions and recognizability matter more than shipping lots of mediocre icons.
 
+## New: image-first artwork pipeline (batches of six)
+
+The current 30-icon preview above still shows the **old unapproved SVG concepts**, not newly generated icons. We're replacing them **six at a time**, using image generation and human review first, then real vector tracing and a small-size QA sheet. New icons must not silently overwrite the old artwork until approved.
+
+[See the five batches and review checklist](docs/BATCH-WORKFLOW.md). For conversion: `python -m pip install -r scripts/requirements-artwork.txt` then `python scripts/sheet_to_assets.py sheet.png --out artwork/candidates/batch-01 --names linux github python javascript typescript html`. Use `python scripts/test_artwork_pipeline.py` for the synthetic six-tile smoke test.
+
 ## All 30 icons — visual gallery
 
 Click any icon to view/download its full-size, editable SVG. The grid below shows **every model side by side** without opening each file individually.

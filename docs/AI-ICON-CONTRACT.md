@@ -1,14 +1,14 @@
-# AI Icon Creation Contract
+# AXR Icons — AI-assisted illustration contract
 
-## Template for generating a new stack mascot
+**Canonical workflow: image first, SVG second.** Do NOT write the final icon's SVG geometry from a language-model text prompt.
 
-Create an ORIGINAL, technology-inspired SVG mascot icon for `{STACK}` with slug `{SLUG}`. Read `docs/DESIGN-SYSTEM.md` and THREE approved icons in this repository. The reference moodboard defines the overall aesthetic, not copyable silhouettes.
+1. Read `docs/BATCH-WORKFLOW.md`, reference the *flat, minimalist six-tile moodboard* and the existing approved PNGs, not only the old unapproved SVGs.
+2. Generate exactly **six** different technology mascots in one equally spaced 3×2 sheet, never thirty.
+3. Require 2D flat vector-like illustration, no 3D, gloss, lighting bloom, typography, raster noise or vendor logo tracing.
+4. Obtain visual approval and extract six separate transparent PNG files.
+5. Trace from those PNGs to actual closed SVG paths with `scripts/sheet_to_assets.py`. Clean the resulting paths and restore intentionally different colors; automated tracing can lose details.
+6. Compare PNG/SVG side by side at **16, 24, 32, 64 px**. Reject low-quality contours and tiny facial details that turn into blobs.
+7. Stage the output separately, never overwrite `icons/` without approval. Approved assets must remain separately available as PNG and SVG.
+8. Update the README six-at-a-time and keep the complete 30-icon production gallery side by side.
 
-- Tile geometry: viewBox 0 0 96 96, x=1 y=1 w=94 h=94 rx=23.
-- Choose a distinct gradient pair in colors characteristic of the concept; central dominant white mascot, subtle dark small oval eyes as appropriate.
-- Convey the technology via a friendly pictorial metaphor; avoid direct reproductions of company logos.
-- No duplicate silhouettes from previous icons, no generic SVG packs, no embedded images, no external assets, no scripts, no animation, no text inside the icon.
-- Remain legible at 24, 32 and 64 px; use few high-quality curves and large forms. High optical consistency, not merely equal SVG canvas dimensions.
-- Keep the resulting source editable and accessible with `<title>`.
-
-Then add `icons/{SLUG}.svg` and its record in `registry.json`; run `python scripts/validate.py`. Present a rendered 24px / 32px / 64px comparison for human review. Passing lint does not prove the design is ready. No copy-pasted brand marks.
+**Important:** raster inside SVG (`<image>` + base64) is not vectorization. A traced SVG made of hundreds of noisy paths is also not an acceptable final design.
