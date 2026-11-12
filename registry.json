@@ -7,62 +7,62 @@
   },
   {
     "slug": "github",
-    "name": "Github",
-    "category": "technology",
+    "name": "GitHub",
+    "category": "tool",
     "file": "icons/github.svg"
   },
   {
     "slug": "python",
     "name": "Python",
-    "category": "technology",
+    "category": "language",
     "file": "icons/python.svg"
   },
   {
     "slug": "javascript",
-    "name": "Javascript",
-    "category": "technology",
+    "name": "JavaScript",
+    "category": "language",
     "file": "icons/javascript.svg"
   },
   {
     "slug": "typescript",
-    "name": "Typescript",
-    "category": "technology",
+    "name": "TypeScript",
+    "category": "language",
     "file": "icons/typescript.svg"
   },
   {
     "slug": "html",
-    "name": "Html",
-    "category": "technology",
+    "name": "HTML",
+    "category": "language",
     "file": "icons/html.svg"
   },
   {
     "slug": "css",
-    "name": "Css",
-    "category": "technology",
+    "name": "CSS",
+    "category": "language",
     "file": "icons/css.svg"
   },
   {
     "slug": "git",
     "name": "Git",
-    "category": "technology",
+    "category": "tool",
     "file": "icons/git.svg"
   },
   {
     "slug": "docker",
     "name": "Docker",
-    "category": "technology",
+    "category": "tool",
     "file": "icons/docker.svg"
   },
   {
     "slug": "kubernetes",
     "name": "Kubernetes",
-    "category": "technology",
+    "category": "tool",
     "file": "icons/kubernetes.svg"
   },
   {
     "slug": "rust",
     "name": "Rust",
-    "category": "technology",
+    "category": "language",
     "file": "icons/rust.svg"
   },
   {
@@ -73,31 +73,31 @@
   },
   {
     "slug": "nextjs",
-    "name": "Nextjs",
+    "name": "Next.js",
     "category": "framework",
     "file": "icons/nextjs.svg"
   },
   {
     "slug": "nodejs",
-    "name": "Nodejs",
+    "name": "Node.js",
     "category": "framework",
     "file": "icons/nodejs.svg"
   },
   {
     "slug": "postgresql",
-    "name": "Postgresql",
+    "name": "PostgreSQL",
     "category": "database",
     "file": "icons/postgresql.svg"
   },
   {
     "slug": "mysql",
-    "name": "Mysql",
+    "name": "MySQL",
     "category": "database",
     "file": "icons/mysql.svg"
   },
   {
     "slug": "mongodb",
-    "name": "Mongodb",
+    "name": "MongoDB",
     "category": "database",
     "file": "icons/mongodb.svg"
   },
@@ -110,36 +110,36 @@
   {
     "slug": "go",
     "name": "Go",
-    "category": "technology",
+    "category": "language",
     "file": "icons/go.svg"
   },
   {
     "slug": "java",
     "name": "Java",
-    "category": "technology",
+    "category": "language",
     "file": "icons/java.svg"
   },
   {
     "slug": "c",
     "name": "C",
-    "category": "technology",
+    "category": "language",
     "file": "icons/c.svg"
   },
   {
     "slug": "cpp",
     "name": "C++",
-    "category": "technology",
+    "category": "language",
     "file": "icons/cpp.svg"
   },
   {
     "slug": "bash",
     "name": "Bash",
-    "category": "technology",
+    "category": "tool",
     "file": "icons/bash.svg"
   },
   {
     "slug": "archlinux",
-    "name": "Archlinux",
+    "name": "Arch Linux",
     "category": "platform",
     "file": "icons/archlinux.svg"
   },
@@ -170,12 +170,12 @@
   {
     "slug": "figma",
     "name": "Figma",
-    "category": "technology",
+    "category": "tool",
     "file": "icons/figma.svg"
   },
   {
     "slug": "tailwindcss",
-    "name": "Tailwindcss",
+    "name": "Tailwind CSS",
     "category": "framework",
     "file": "icons/tailwindcss.svg"
   }
