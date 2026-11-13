@@ -1,182 +1,2609 @@
 [
   {
+    "id": 1,
     "slug": "linux",
     "name": "Linux",
-    "category": "platform",
-    "file": "icons/linux.svg"
+    "category": "os",
+    "lot": 1,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/001-linux.png",
+        "32": "assets/png/32/001-linux.png",
+        "64": "assets/png/64/001-linux.png",
+        "256": "assets/png/256/001-linux.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/001-linux.svg",
+        "fidelity": "assets/svg/fidelity/001-linux.svg"
+      }
+    }
   },
   {
+    "id": 2,
     "slug": "github",
     "name": "GitHub",
-    "category": "tool",
-    "file": "icons/github.svg"
+    "category": "tools",
+    "lot": 1,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/002-github.png",
+        "32": "assets/png/32/002-github.png",
+        "64": "assets/png/64/002-github.png",
+        "256": "assets/png/256/002-github.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/002-github.svg",
+        "fidelity": "assets/svg/fidelity/002-github.svg"
+      }
+    }
   },
   {
+    "id": 3,
     "slug": "python",
     "name": "Python",
-    "category": "language",
-    "file": "icons/python.svg"
+    "category": "languages",
+    "lot": 1,
+    "aliases": [
+      "py"
+    ],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/003-python.png",
+        "32": "assets/png/32/003-python.png",
+        "64": "assets/png/64/003-python.png",
+        "256": "assets/png/256/003-python.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/003-python.svg",
+        "fidelity": "assets/svg/fidelity/003-python.svg"
+      }
+    }
   },
   {
+    "id": 4,
     "slug": "javascript",
     "name": "JavaScript",
-    "category": "language",
-    "file": "icons/javascript.svg"
+    "category": "languages",
+    "lot": 1,
+    "aliases": [
+      "js",
+      "ecmascript"
+    ],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/004-javascript.png",
+        "32": "assets/png/32/004-javascript.png",
+        "64": "assets/png/64/004-javascript.png",
+        "256": "assets/png/256/004-javascript.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/004-javascript.svg",
+        "fidelity": "assets/svg/fidelity/004-javascript.svg"
+      }
+    }
   },
   {
+    "id": 5,
     "slug": "typescript",
     "name": "TypeScript",
-    "category": "language",
-    "file": "icons/typescript.svg"
+    "category": "languages",
+    "lot": 1,
+    "aliases": [
+      "ts"
+    ],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/005-typescript.png",
+        "32": "assets/png/32/005-typescript.png",
+        "64": "assets/png/64/005-typescript.png",
+        "256": "assets/png/256/005-typescript.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/005-typescript.svg",
+        "fidelity": "assets/svg/fidelity/005-typescript.svg"
+      }
+    }
   },
   {
-    "slug": "html",
-    "name": "HTML",
-    "category": "language",
-    "file": "icons/html.svg"
-  },
-  {
-    "slug": "css",
-    "name": "CSS",
-    "category": "language",
-    "file": "icons/css.svg"
-  },
-  {
-    "slug": "git",
-    "name": "Git",
-    "category": "tool",
-    "file": "icons/git.svg"
-  },
-  {
+    "id": 6,
     "slug": "docker",
     "name": "Docker",
-    "category": "tool",
-    "file": "icons/docker.svg"
+    "category": "devops",
+    "lot": 1,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/006-docker.png",
+        "32": "assets/png/32/006-docker.png",
+        "64": "assets/png/64/006-docker.png",
+        "256": "assets/png/256/006-docker.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/006-docker.svg",
+        "fidelity": "assets/svg/fidelity/006-docker.svg"
+      }
+    }
   },
   {
+    "id": 7,
     "slug": "kubernetes",
     "name": "Kubernetes",
-    "category": "tool",
-    "file": "icons/kubernetes.svg"
+    "category": "devops",
+    "lot": 1,
+    "aliases": [
+      "k8s"
+    ],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/007-kubernetes.png",
+        "32": "assets/png/32/007-kubernetes.png",
+        "64": "assets/png/64/007-kubernetes.png",
+        "256": "assets/png/256/007-kubernetes.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/007-kubernetes.svg",
+        "fidelity": "assets/svg/fidelity/007-kubernetes.svg"
+      }
+    }
   },
   {
+    "id": 8,
     "slug": "rust",
     "name": "Rust",
-    "category": "language",
-    "file": "icons/rust.svg"
+    "category": "languages",
+    "lot": 1,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/008-rust.png",
+        "32": "assets/png/32/008-rust.png",
+        "64": "assets/png/64/008-rust.png",
+        "256": "assets/png/256/008-rust.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/008-rust.svg",
+        "fidelity": "assets/svg/fidelity/008-rust.svg"
+      }
+    }
   },
   {
+    "id": 9,
+    "slug": "html",
+    "name": "HTML",
+    "category": "languages",
+    "lot": 2,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/009-html.png",
+        "32": "assets/png/32/009-html.png",
+        "64": "assets/png/64/009-html.png",
+        "256": "assets/png/256/009-html.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/009-html.svg",
+        "fidelity": "assets/svg/fidelity/009-html.svg"
+      }
+    }
+  },
+  {
+    "id": 10,
+    "slug": "css",
+    "name": "CSS",
+    "category": "languages",
+    "lot": 2,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/010-css.png",
+        "32": "assets/png/32/010-css.png",
+        "64": "assets/png/64/010-css.png",
+        "256": "assets/png/256/010-css.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/010-css.svg",
+        "fidelity": "assets/svg/fidelity/010-css.svg"
+      }
+    }
+  },
+  {
+    "id": 11,
+    "slug": "git",
+    "name": "Git",
+    "category": "devops",
+    "lot": 2,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/011-git.png",
+        "32": "assets/png/32/011-git.png",
+        "64": "assets/png/64/011-git.png",
+        "256": "assets/png/256/011-git.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/011-git.svg",
+        "fidelity": "assets/svg/fidelity/011-git.svg"
+      }
+    }
+  },
+  {
+    "id": 12,
     "slug": "react",
     "name": "React",
-    "category": "framework",
-    "file": "icons/react.svg"
+    "category": "frontend",
+    "lot": 2,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/012-react.png",
+        "32": "assets/png/32/012-react.png",
+        "64": "assets/png/64/012-react.png",
+        "256": "assets/png/256/012-react.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/012-react.svg",
+        "fidelity": "assets/svg/fidelity/012-react.svg"
+      }
+    }
   },
   {
-    "slug": "nextjs",
+    "id": 13,
+    "slug": "next-js",
     "name": "Next.js",
-    "category": "framework",
-    "file": "icons/nextjs.svg"
+    "category": "frontend",
+    "lot": 2,
+    "aliases": [
+      "nextjs",
+      "next.js",
+      "next js"
+    ],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/013-next-js.png",
+        "32": "assets/png/32/013-next-js.png",
+        "64": "assets/png/64/013-next-js.png",
+        "256": "assets/png/256/013-next-js.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/013-next-js.svg",
+        "fidelity": "assets/svg/fidelity/013-next-js.svg"
+      }
+    }
   },
   {
-    "slug": "nodejs",
+    "id": 14,
+    "slug": "node-js",
     "name": "Node.js",
-    "category": "framework",
-    "file": "icons/nodejs.svg"
+    "category": "backend",
+    "lot": 2,
+    "aliases": [
+      "nodejs",
+      "node.js",
+      "node js"
+    ],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/014-node-js.png",
+        "32": "assets/png/32/014-node-js.png",
+        "64": "assets/png/64/014-node-js.png",
+        "256": "assets/png/256/014-node-js.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/014-node-js.svg",
+        "fidelity": "assets/svg/fidelity/014-node-js.svg"
+      }
+    }
   },
   {
+    "id": 15,
     "slug": "postgresql",
     "name": "PostgreSQL",
-    "category": "database",
-    "file": "icons/postgresql.svg"
+    "category": "databases",
+    "lot": 2,
+    "aliases": [
+      "postgres",
+      "psql"
+    ],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/015-postgresql.png",
+        "32": "assets/png/32/015-postgresql.png",
+        "64": "assets/png/64/015-postgresql.png",
+        "256": "assets/png/256/015-postgresql.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/015-postgresql.svg",
+        "fidelity": "assets/svg/fidelity/015-postgresql.svg"
+      }
+    }
   },
   {
+    "id": 16,
     "slug": "mysql",
     "name": "MySQL",
-    "category": "database",
-    "file": "icons/mysql.svg"
+    "category": "databases",
+    "lot": 2,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/016-mysql.png",
+        "32": "assets/png/32/016-mysql.png",
+        "64": "assets/png/64/016-mysql.png",
+        "256": "assets/png/256/016-mysql.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/016-mysql.svg",
+        "fidelity": "assets/svg/fidelity/016-mysql.svg"
+      }
+    }
   },
   {
+    "id": 17,
     "slug": "mongodb",
     "name": "MongoDB",
-    "category": "database",
-    "file": "icons/mongodb.svg"
+    "category": "databases",
+    "lot": 3,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/017-mongodb.png",
+        "32": "assets/png/32/017-mongodb.png",
+        "64": "assets/png/64/017-mongodb.png",
+        "256": "assets/png/256/017-mongodb.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/017-mongodb.svg",
+        "fidelity": "assets/svg/fidelity/017-mongodb.svg"
+      }
+    }
   },
   {
+    "id": 18,
     "slug": "redis",
     "name": "Redis",
-    "category": "database",
-    "file": "icons/redis.svg"
+    "category": "databases",
+    "lot": 3,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/018-redis.png",
+        "32": "assets/png/32/018-redis.png",
+        "64": "assets/png/64/018-redis.png",
+        "256": "assets/png/256/018-redis.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/018-redis.svg",
+        "fidelity": "assets/svg/fidelity/018-redis.svg"
+      }
+    }
   },
   {
+    "id": 19,
     "slug": "go",
     "name": "Go",
-    "category": "language",
-    "file": "icons/go.svg"
+    "category": "languages",
+    "lot": 3,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/019-go.png",
+        "32": "assets/png/32/019-go.png",
+        "64": "assets/png/64/019-go.png",
+        "256": "assets/png/256/019-go.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/019-go.svg",
+        "fidelity": "assets/svg/fidelity/019-go.svg"
+      }
+    }
   },
   {
+    "id": 20,
     "slug": "java",
     "name": "Java",
-    "category": "language",
-    "file": "icons/java.svg"
+    "category": "languages",
+    "lot": 3,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/020-java.png",
+        "32": "assets/png/32/020-java.png",
+        "64": "assets/png/64/020-java.png",
+        "256": "assets/png/256/020-java.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/020-java.svg",
+        "fidelity": "assets/svg/fidelity/020-java.svg"
+      }
+    }
   },
   {
+    "id": 21,
     "slug": "c",
     "name": "C",
-    "category": "language",
-    "file": "icons/c.svg"
+    "category": "languages",
+    "lot": 3,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/021-c.png",
+        "32": "assets/png/32/021-c.png",
+        "64": "assets/png/64/021-c.png",
+        "256": "assets/png/256/021-c.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/021-c.svg",
+        "fidelity": "assets/svg/fidelity/021-c.svg"
+      }
+    }
   },
   {
+    "id": 22,
     "slug": "cpp",
     "name": "C++",
-    "category": "language",
-    "file": "icons/cpp.svg"
+    "category": "languages",
+    "lot": 3,
+    "aliases": [
+      "c++",
+      "cplusplus",
+      "cxx"
+    ],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/022-cpp.png",
+        "32": "assets/png/32/022-cpp.png",
+        "64": "assets/png/64/022-cpp.png",
+        "256": "assets/png/256/022-cpp.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/022-cpp.svg",
+        "fidelity": "assets/svg/fidelity/022-cpp.svg"
+      }
+    }
   },
   {
+    "id": 23,
     "slug": "bash",
     "name": "Bash",
-    "category": "tool",
-    "file": "icons/bash.svg"
+    "category": "languages",
+    "lot": 3,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/023-bash.png",
+        "32": "assets/png/32/023-bash.png",
+        "64": "assets/png/64/023-bash.png",
+        "256": "assets/png/256/023-bash.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/023-bash.svg",
+        "fidelity": "assets/svg/fidelity/023-bash.svg"
+      }
+    }
   },
   {
-    "slug": "archlinux",
+    "id": 24,
+    "slug": "arch-linux",
     "name": "Arch Linux",
-    "category": "platform",
-    "file": "icons/archlinux.svg"
+    "category": "os",
+    "lot": 3,
+    "aliases": [
+      "archlinux",
+      "arch"
+    ],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/024-arch-linux.png",
+        "32": "assets/png/32/024-arch-linux.png",
+        "64": "assets/png/64/024-arch-linux.png",
+        "256": "assets/png/256/024-arch-linux.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/024-arch-linux.svg",
+        "fidelity": "assets/svg/fidelity/024-arch-linux.svg"
+      }
+    }
   },
   {
+    "id": 25,
     "slug": "ubuntu",
     "name": "Ubuntu",
-    "category": "platform",
-    "file": "icons/ubuntu.svg"
+    "category": "os",
+    "lot": 4,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/025-ubuntu.png",
+        "32": "assets/png/32/025-ubuntu.png",
+        "64": "assets/png/64/025-ubuntu.png",
+        "256": "assets/png/256/025-ubuntu.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/025-ubuntu.svg",
+        "fidelity": "assets/svg/fidelity/025-ubuntu.svg"
+      }
+    }
   },
   {
+    "id": 26,
     "slug": "debian",
     "name": "Debian",
-    "category": "platform",
-    "file": "icons/debian.svg"
+    "category": "os",
+    "lot": 4,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/026-debian.png",
+        "32": "assets/png/32/026-debian.png",
+        "64": "assets/png/64/026-debian.png",
+        "256": "assets/png/256/026-debian.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/026-debian.svg",
+        "fidelity": "assets/svg/fidelity/026-debian.svg"
+      }
+    }
   },
   {
+    "id": 27,
     "slug": "windows",
     "name": "Windows",
-    "category": "platform",
-    "file": "icons/windows.svg"
+    "category": "os",
+    "lot": 4,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/027-windows.png",
+        "32": "assets/png/32/027-windows.png",
+        "64": "assets/png/64/027-windows.png",
+        "256": "assets/png/256/027-windows.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/027-windows.svg",
+        "fidelity": "assets/svg/fidelity/027-windows.svg"
+      }
+    }
   },
   {
+    "id": 28,
     "slug": "macos",
     "name": "macOS",
-    "category": "platform",
-    "file": "icons/macos.svg"
+    "category": "os",
+    "lot": 4,
+    "aliases": [
+      "mac os",
+      "osx",
+      "mac os x"
+    ],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/028-macos.png",
+        "32": "assets/png/32/028-macos.png",
+        "64": "assets/png/64/028-macos.png",
+        "256": "assets/png/256/028-macos.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/028-macos.svg",
+        "fidelity": "assets/svg/fidelity/028-macos.svg"
+      }
+    }
   },
   {
+    "id": 29,
     "slug": "figma",
     "name": "Figma",
-    "category": "tool",
-    "file": "icons/figma.svg"
+    "category": "design",
+    "lot": 4,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/029-figma.png",
+        "32": "assets/png/32/029-figma.png",
+        "64": "assets/png/64/029-figma.png",
+        "256": "assets/png/256/029-figma.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/029-figma.svg",
+        "fidelity": "assets/svg/fidelity/029-figma.svg"
+      }
+    }
   },
   {
-    "slug": "tailwindcss",
+    "id": 30,
+    "slug": "tailwind-css",
     "name": "Tailwind CSS",
-    "category": "framework",
-    "file": "icons/tailwindcss.svg"
+    "category": "frontend",
+    "lot": 4,
+    "aliases": [
+      "tailwindcss",
+      "tailwind"
+    ],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/030-tailwind-css.png",
+        "32": "assets/png/32/030-tailwind-css.png",
+        "64": "assets/png/64/030-tailwind-css.png",
+        "256": "assets/png/256/030-tailwind-css.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/030-tailwind-css.svg",
+        "fidelity": "assets/svg/fidelity/030-tailwind-css.svg"
+      }
+    }
+  },
+  {
+    "id": 31,
+    "slug": "vue-js",
+    "name": "Vue.js",
+    "category": "frontend",
+    "lot": 5,
+    "aliases": [
+      "vuejs",
+      "vue.js",
+      "vue"
+    ],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/031-vue-js.png",
+        "32": "assets/png/32/031-vue-js.png",
+        "64": "assets/png/64/031-vue-js.png",
+        "256": "assets/png/256/031-vue-js.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/031-vue-js.svg",
+        "fidelity": "assets/svg/fidelity/031-vue-js.svg"
+      }
+    }
+  },
+  {
+    "id": 32,
+    "slug": "angular",
+    "name": "Angular",
+    "category": "frontend",
+    "lot": 5,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/032-angular.png",
+        "32": "assets/png/32/032-angular.png",
+        "64": "assets/png/64/032-angular.png",
+        "256": "assets/png/256/032-angular.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/032-angular.svg",
+        "fidelity": "assets/svg/fidelity/032-angular.svg"
+      }
+    }
+  },
+  {
+    "id": 33,
+    "slug": "svelte",
+    "name": "Svelte",
+    "category": "frontend",
+    "lot": 5,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/033-svelte.png",
+        "32": "assets/png/32/033-svelte.png",
+        "64": "assets/png/64/033-svelte.png",
+        "256": "assets/png/256/033-svelte.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/033-svelte.svg",
+        "fidelity": "assets/svg/fidelity/033-svelte.svg"
+      }
+    }
+  },
+  {
+    "id": 34,
+    "slug": "vite",
+    "name": "Vite",
+    "category": "frontend",
+    "lot": 5,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/034-vite.png",
+        "32": "assets/png/32/034-vite.png",
+        "64": "assets/png/64/034-vite.png",
+        "256": "assets/png/256/034-vite.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/034-vite.svg",
+        "fidelity": "assets/svg/fidelity/034-vite.svg"
+      }
+    }
+  },
+  {
+    "id": 35,
+    "slug": "php",
+    "name": "PHP",
+    "category": "languages",
+    "lot": 5,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/035-php.png",
+        "32": "assets/png/32/035-php.png",
+        "64": "assets/png/64/035-php.png",
+        "256": "assets/png/256/035-php.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/035-php.svg",
+        "fidelity": "assets/svg/fidelity/035-php.svg"
+      }
+    }
+  },
+  {
+    "id": 36,
+    "slug": "csharp",
+    "name": "C#",
+    "category": "languages",
+    "lot": 5,
+    "aliases": [
+      "c#",
+      "c-sharp"
+    ],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/036-csharp.png",
+        "32": "assets/png/32/036-csharp.png",
+        "64": "assets/png/64/036-csharp.png",
+        "256": "assets/png/256/036-csharp.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/036-csharp.svg",
+        "fidelity": "assets/svg/fidelity/036-csharp.svg"
+      }
+    }
+  },
+  {
+    "id": 37,
+    "slug": "sqlite",
+    "name": "SQLite",
+    "category": "databases",
+    "lot": 5,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/037-sqlite.png",
+        "32": "assets/png/32/037-sqlite.png",
+        "64": "assets/png/64/037-sqlite.png",
+        "256": "assets/png/256/037-sqlite.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/037-sqlite.svg",
+        "fidelity": "assets/svg/fidelity/037-sqlite.svg"
+      }
+    }
+  },
+  {
+    "id": 38,
+    "slug": "aws",
+    "name": "AWS",
+    "category": "cloud",
+    "lot": 5,
+    "aliases": [
+      "amazon-web-services"
+    ],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/038-aws.png",
+        "32": "assets/png/32/038-aws.png",
+        "64": "assets/png/64/038-aws.png",
+        "256": "assets/png/256/038-aws.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/038-aws.svg",
+        "fidelity": "assets/svg/fidelity/038-aws.svg"
+      }
+    }
+  },
+  {
+    "id": 39,
+    "slug": "astro",
+    "name": "Astro",
+    "category": "frontend",
+    "lot": 6,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/039-astro.png",
+        "32": "assets/png/32/039-astro.png",
+        "64": "assets/png/64/039-astro.png",
+        "256": "assets/png/256/039-astro.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/039-astro.svg",
+        "fidelity": "assets/svg/fidelity/039-astro.svg"
+      }
+    }
+  },
+  {
+    "id": 40,
+    "slug": "nuxt",
+    "name": "Nuxt",
+    "category": "frontend",
+    "lot": 6,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/040-nuxt.png",
+        "32": "assets/png/32/040-nuxt.png",
+        "64": "assets/png/64/040-nuxt.png",
+        "256": "assets/png/256/040-nuxt.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/040-nuxt.svg",
+        "fidelity": "assets/svg/fidelity/040-nuxt.svg"
+      }
+    }
+  },
+  {
+    "id": 41,
+    "slug": "sveltekit",
+    "name": "SvelteKit",
+    "category": "frontend",
+    "lot": 6,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/041-sveltekit.png",
+        "32": "assets/png/32/041-sveltekit.png",
+        "64": "assets/png/64/041-sveltekit.png",
+        "256": "assets/png/256/041-sveltekit.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/041-sveltekit.svg",
+        "fidelity": "assets/svg/fidelity/041-sveltekit.svg"
+      }
+    }
+  },
+  {
+    "id": 42,
+    "slug": "solidjs",
+    "name": "SolidJS",
+    "category": "frontend",
+    "lot": 6,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/042-solidjs.png",
+        "32": "assets/png/32/042-solidjs.png",
+        "64": "assets/png/64/042-solidjs.png",
+        "256": "assets/png/256/042-solidjs.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/042-solidjs.svg",
+        "fidelity": "assets/svg/fidelity/042-solidjs.svg"
+      }
+    }
+  },
+  {
+    "id": 43,
+    "slug": "htmx",
+    "name": "HTMX",
+    "category": "frontend",
+    "lot": 6,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/043-htmx.png",
+        "32": "assets/png/32/043-htmx.png",
+        "64": "assets/png/64/043-htmx.png",
+        "256": "assets/png/256/043-htmx.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/043-htmx.svg",
+        "fidelity": "assets/svg/fidelity/043-htmx.svg"
+      }
+    }
+  },
+  {
+    "id": 44,
+    "slug": "webpack",
+    "name": "Webpack",
+    "category": "frontend",
+    "lot": 6,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/044-webpack.png",
+        "32": "assets/png/32/044-webpack.png",
+        "64": "assets/png/64/044-webpack.png",
+        "256": "assets/png/256/044-webpack.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/044-webpack.svg",
+        "fidelity": "assets/svg/fidelity/044-webpack.svg"
+      }
+    }
+  },
+  {
+    "id": 45,
+    "slug": "preact",
+    "name": "Preact",
+    "category": "frontend",
+    "lot": 6,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/045-preact.png",
+        "32": "assets/png/32/045-preact.png",
+        "64": "assets/png/64/045-preact.png",
+        "256": "assets/png/256/045-preact.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/045-preact.svg",
+        "fidelity": "assets/svg/fidelity/045-preact.svg"
+      }
+    }
+  },
+  {
+    "id": 46,
+    "slug": "alpine-js",
+    "name": "Alpine.js",
+    "category": "frontend",
+    "lot": 6,
+    "aliases": [
+      "alpinejs",
+      "alpine.js"
+    ],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/046-alpine-js.png",
+        "32": "assets/png/32/046-alpine-js.png",
+        "64": "assets/png/64/046-alpine-js.png",
+        "256": "assets/png/256/046-alpine-js.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/046-alpine-js.svg",
+        "fidelity": "assets/svg/fidelity/046-alpine-js.svg"
+      }
+    }
+  },
+  {
+    "id": 47,
+    "slug": "express-js",
+    "name": "Express.js",
+    "category": "backend",
+    "lot": 7,
+    "aliases": [
+      "express",
+      "expressjs",
+      "express.js"
+    ],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/047-express-js.png",
+        "32": "assets/png/32/047-express-js.png",
+        "64": "assets/png/64/047-express-js.png",
+        "256": "assets/png/256/047-express-js.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/047-express-js.svg",
+        "fidelity": "assets/svg/fidelity/047-express-js.svg"
+      }
+    }
+  },
+  {
+    "id": 48,
+    "slug": "nestjs",
+    "name": "NestJS",
+    "category": "backend",
+    "lot": 7,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/048-nestjs.png",
+        "32": "assets/png/32/048-nestjs.png",
+        "64": "assets/png/64/048-nestjs.png",
+        "256": "assets/png/256/048-nestjs.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/048-nestjs.svg",
+        "fidelity": "assets/svg/fidelity/048-nestjs.svg"
+      }
+    }
+  },
+  {
+    "id": 49,
+    "slug": "fastapi",
+    "name": "FastAPI",
+    "category": "backend",
+    "lot": 7,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/049-fastapi.png",
+        "32": "assets/png/32/049-fastapi.png",
+        "64": "assets/png/64/049-fastapi.png",
+        "256": "assets/png/256/049-fastapi.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/049-fastapi.svg",
+        "fidelity": "assets/svg/fidelity/049-fastapi.svg"
+      }
+    }
+  },
+  {
+    "id": 50,
+    "slug": "django",
+    "name": "Django",
+    "category": "backend",
+    "lot": 7,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/050-django.png",
+        "32": "assets/png/32/050-django.png",
+        "64": "assets/png/64/050-django.png",
+        "256": "assets/png/256/050-django.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/050-django.svg",
+        "fidelity": "assets/svg/fidelity/050-django.svg"
+      }
+    }
+  },
+  {
+    "id": 51,
+    "slug": "flask",
+    "name": "Flask",
+    "category": "backend",
+    "lot": 7,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/051-flask.png",
+        "32": "assets/png/32/051-flask.png",
+        "64": "assets/png/64/051-flask.png",
+        "256": "assets/png/256/051-flask.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/051-flask.svg",
+        "fidelity": "assets/svg/fidelity/051-flask.svg"
+      }
+    }
+  },
+  {
+    "id": 52,
+    "slug": "laravel",
+    "name": "Laravel",
+    "category": "backend",
+    "lot": 7,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/052-laravel.png",
+        "32": "assets/png/32/052-laravel.png",
+        "64": "assets/png/64/052-laravel.png",
+        "256": "assets/png/256/052-laravel.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/052-laravel.svg",
+        "fidelity": "assets/svg/fidelity/052-laravel.svg"
+      }
+    }
+  },
+  {
+    "id": 53,
+    "slug": "spring-boot",
+    "name": "Spring Boot",
+    "category": "backend",
+    "lot": 7,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/053-spring-boot.png",
+        "32": "assets/png/32/053-spring-boot.png",
+        "64": "assets/png/64/053-spring-boot.png",
+        "256": "assets/png/256/053-spring-boot.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/053-spring-boot.svg",
+        "fidelity": "assets/svg/fidelity/053-spring-boot.svg"
+      }
+    }
+  },
+  {
+    "id": 54,
+    "slug": "aspdotnet-core",
+    "name": "ASP.NET Core",
+    "category": "backend",
+    "lot": 7,
+    "aliases": [
+      "asp.net core",
+      "aspnetcore",
+      "asp-net-core"
+    ],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/054-aspdotnet-core.png",
+        "32": "assets/png/32/054-aspdotnet-core.png",
+        "64": "assets/png/64/054-aspdotnet-core.png",
+        "256": "assets/png/256/054-aspdotnet-core.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/054-aspdotnet-core.svg",
+        "fidelity": "assets/svg/fidelity/054-aspdotnet-core.svg"
+      }
+    }
+  },
+  {
+    "id": 55,
+    "slug": "kotlin",
+    "name": "Kotlin",
+    "category": "languages",
+    "lot": 8,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/055-kotlin.png",
+        "32": "assets/png/32/055-kotlin.png",
+        "64": "assets/png/64/055-kotlin.png",
+        "256": "assets/png/256/055-kotlin.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/055-kotlin.svg",
+        "fidelity": "assets/svg/fidelity/055-kotlin.svg"
+      }
+    }
+  },
+  {
+    "id": 56,
+    "slug": "swift",
+    "name": "Swift",
+    "category": "languages",
+    "lot": 8,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/056-swift.png",
+        "32": "assets/png/32/056-swift.png",
+        "64": "assets/png/64/056-swift.png",
+        "256": "assets/png/256/056-swift.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/056-swift.svg",
+        "fidelity": "assets/svg/fidelity/056-swift.svg"
+      }
+    }
+  },
+  {
+    "id": 57,
+    "slug": "dart",
+    "name": "Dart",
+    "category": "languages",
+    "lot": 8,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/057-dart.png",
+        "32": "assets/png/32/057-dart.png",
+        "64": "assets/png/64/057-dart.png",
+        "256": "assets/png/256/057-dart.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/057-dart.svg",
+        "fidelity": "assets/svg/fidelity/057-dart.svg"
+      }
+    }
+  },
+  {
+    "id": 58,
+    "slug": "ruby",
+    "name": "Ruby",
+    "category": "languages",
+    "lot": 8,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/058-ruby.png",
+        "32": "assets/png/32/058-ruby.png",
+        "64": "assets/png/64/058-ruby.png",
+        "256": "assets/png/256/058-ruby.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/058-ruby.svg",
+        "fidelity": "assets/svg/fidelity/058-ruby.svg"
+      }
+    }
+  },
+  {
+    "id": 59,
+    "slug": "lua",
+    "name": "Lua",
+    "category": "languages",
+    "lot": 8,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/059-lua.png",
+        "32": "assets/png/32/059-lua.png",
+        "64": "assets/png/64/059-lua.png",
+        "256": "assets/png/256/059-lua.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/059-lua.svg",
+        "fidelity": "assets/svg/fidelity/059-lua.svg"
+      }
+    }
+  },
+  {
+    "id": 60,
+    "slug": "zig",
+    "name": "Zig",
+    "category": "languages",
+    "lot": 8,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/060-zig.png",
+        "32": "assets/png/32/060-zig.png",
+        "64": "assets/png/64/060-zig.png",
+        "256": "assets/png/256/060-zig.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/060-zig.svg",
+        "fidelity": "assets/svg/fidelity/060-zig.svg"
+      }
+    }
+  },
+  {
+    "id": 61,
+    "slug": "scala",
+    "name": "Scala",
+    "category": "languages",
+    "lot": 8,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/061-scala.png",
+        "32": "assets/png/32/061-scala.png",
+        "64": "assets/png/64/061-scala.png",
+        "256": "assets/png/256/061-scala.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/061-scala.svg",
+        "fidelity": "assets/svg/fidelity/061-scala.svg"
+      }
+    }
+  },
+  {
+    "id": 62,
+    "slug": "elixir",
+    "name": "Elixir",
+    "category": "languages",
+    "lot": 8,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/062-elixir.png",
+        "32": "assets/png/32/062-elixir.png",
+        "64": "assets/png/64/062-elixir.png",
+        "256": "assets/png/256/062-elixir.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/062-elixir.svg",
+        "fidelity": "assets/svg/fidelity/062-elixir.svg"
+      }
+    }
+  },
+  {
+    "id": 63,
+    "slug": "mariadb",
+    "name": "MariaDB",
+    "category": "databases",
+    "lot": 9,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/063-mariadb.png",
+        "32": "assets/png/32/063-mariadb.png",
+        "64": "assets/png/64/063-mariadb.png",
+        "256": "assets/png/256/063-mariadb.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/063-mariadb.svg",
+        "fidelity": "assets/svg/fidelity/063-mariadb.svg"
+      }
+    }
+  },
+  {
+    "id": 64,
+    "slug": "sql-server",
+    "name": "SQL Server",
+    "category": "databases",
+    "lot": 9,
+    "aliases": [
+      "mssql",
+      "microsoft sql server"
+    ],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/064-sql-server.png",
+        "32": "assets/png/32/064-sql-server.png",
+        "64": "assets/png/64/064-sql-server.png",
+        "256": "assets/png/256/064-sql-server.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/064-sql-server.svg",
+        "fidelity": "assets/svg/fidelity/064-sql-server.svg"
+      }
+    }
+  },
+  {
+    "id": 65,
+    "slug": "oracle-database",
+    "name": "Oracle Database",
+    "category": "databases",
+    "lot": 9,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/065-oracle-database.png",
+        "32": "assets/png/32/065-oracle-database.png",
+        "64": "assets/png/64/065-oracle-database.png",
+        "256": "assets/png/256/065-oracle-database.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/065-oracle-database.svg",
+        "fidelity": "assets/svg/fidelity/065-oracle-database.svg"
+      }
+    }
+  },
+  {
+    "id": 66,
+    "slug": "supabase",
+    "name": "Supabase",
+    "category": "databases",
+    "lot": 9,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/066-supabase.png",
+        "32": "assets/png/32/066-supabase.png",
+        "64": "assets/png/64/066-supabase.png",
+        "256": "assets/png/256/066-supabase.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/066-supabase.svg",
+        "fidelity": "assets/svg/fidelity/066-supabase.svg"
+      }
+    }
+  },
+  {
+    "id": 67,
+    "slug": "firebase",
+    "name": "Firebase",
+    "category": "databases",
+    "lot": 9,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/067-firebase.png",
+        "32": "assets/png/32/067-firebase.png",
+        "64": "assets/png/64/067-firebase.png",
+        "256": "assets/png/256/067-firebase.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/067-firebase.svg",
+        "fidelity": "assets/svg/fidelity/067-firebase.svg"
+      }
+    }
+  },
+  {
+    "id": 68,
+    "slug": "elasticsearch",
+    "name": "Elasticsearch",
+    "category": "databases",
+    "lot": 9,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/068-elasticsearch.png",
+        "32": "assets/png/32/068-elasticsearch.png",
+        "64": "assets/png/64/068-elasticsearch.png",
+        "256": "assets/png/256/068-elasticsearch.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/068-elasticsearch.svg",
+        "fidelity": "assets/svg/fidelity/068-elasticsearch.svg"
+      }
+    }
+  },
+  {
+    "id": 69,
+    "slug": "clickhouse",
+    "name": "ClickHouse",
+    "category": "databases",
+    "lot": 9,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/069-clickhouse.png",
+        "32": "assets/png/32/069-clickhouse.png",
+        "64": "assets/png/64/069-clickhouse.png",
+        "256": "assets/png/256/069-clickhouse.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/069-clickhouse.svg",
+        "fidelity": "assets/svg/fidelity/069-clickhouse.svg"
+      }
+    }
+  },
+  {
+    "id": 70,
+    "slug": "dynamodb",
+    "name": "DynamoDB",
+    "category": "databases",
+    "lot": 9,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/070-dynamodb.png",
+        "32": "assets/png/32/070-dynamodb.png",
+        "64": "assets/png/64/070-dynamodb.png",
+        "256": "assets/png/256/070-dynamodb.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/070-dynamodb.svg",
+        "fidelity": "assets/svg/fidelity/070-dynamodb.svg"
+      }
+    }
+  },
+  {
+    "id": 71,
+    "slug": "azure",
+    "name": "Azure",
+    "category": "cloud",
+    "lot": 10,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/071-azure.png",
+        "32": "assets/png/32/071-azure.png",
+        "64": "assets/png/64/071-azure.png",
+        "256": "assets/png/256/071-azure.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/071-azure.svg",
+        "fidelity": "assets/svg/fidelity/071-azure.svg"
+      }
+    }
+  },
+  {
+    "id": 72,
+    "slug": "google-cloud",
+    "name": "Google Cloud",
+    "category": "cloud",
+    "lot": 10,
+    "aliases": [
+      "gcp",
+      "google cloud platform"
+    ],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/072-google-cloud.png",
+        "32": "assets/png/32/072-google-cloud.png",
+        "64": "assets/png/64/072-google-cloud.png",
+        "256": "assets/png/256/072-google-cloud.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/072-google-cloud.svg",
+        "fidelity": "assets/svg/fidelity/072-google-cloud.svg"
+      }
+    }
+  },
+  {
+    "id": 73,
+    "slug": "cloudflare",
+    "name": "Cloudflare",
+    "category": "cloud",
+    "lot": 10,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/073-cloudflare.png",
+        "32": "assets/png/32/073-cloudflare.png",
+        "64": "assets/png/64/073-cloudflare.png",
+        "256": "assets/png/256/073-cloudflare.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/073-cloudflare.svg",
+        "fidelity": "assets/svg/fidelity/073-cloudflare.svg"
+      }
+    }
+  },
+  {
+    "id": 74,
+    "slug": "vercel",
+    "name": "Vercel",
+    "category": "cloud",
+    "lot": 10,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/074-vercel.png",
+        "32": "assets/png/32/074-vercel.png",
+        "64": "assets/png/64/074-vercel.png",
+        "256": "assets/png/256/074-vercel.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/074-vercel.svg",
+        "fidelity": "assets/svg/fidelity/074-vercel.svg"
+      }
+    }
+  },
+  {
+    "id": 75,
+    "slug": "netlify",
+    "name": "Netlify",
+    "category": "cloud",
+    "lot": 10,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/075-netlify.png",
+        "32": "assets/png/32/075-netlify.png",
+        "64": "assets/png/64/075-netlify.png",
+        "256": "assets/png/256/075-netlify.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/075-netlify.svg",
+        "fidelity": "assets/svg/fidelity/075-netlify.svg"
+      }
+    }
+  },
+  {
+    "id": 76,
+    "slug": "nginx",
+    "name": "Nginx",
+    "category": "cloud",
+    "lot": 10,
+    "aliases": [
+      "nginx-server"
+    ],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/076-nginx.png",
+        "32": "assets/png/32/076-nginx.png",
+        "64": "assets/png/64/076-nginx.png",
+        "256": "assets/png/256/076-nginx.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/076-nginx.svg",
+        "fidelity": "assets/svg/fidelity/076-nginx.svg"
+      }
+    }
+  },
+  {
+    "id": 77,
+    "slug": "apache",
+    "name": "Apache",
+    "category": "cloud",
+    "lot": 10,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/077-apache.png",
+        "32": "assets/png/32/077-apache.png",
+        "64": "assets/png/64/077-apache.png",
+        "256": "assets/png/256/077-apache.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/077-apache.svg",
+        "fidelity": "assets/svg/fidelity/077-apache.svg"
+      }
+    }
+  },
+  {
+    "id": 78,
+    "slug": "digitalocean",
+    "name": "DigitalOcean",
+    "category": "cloud",
+    "lot": 10,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/078-digitalocean.png",
+        "32": "assets/png/32/078-digitalocean.png",
+        "64": "assets/png/64/078-digitalocean.png",
+        "256": "assets/png/256/078-digitalocean.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/078-digitalocean.svg",
+        "fidelity": "assets/svg/fidelity/078-digitalocean.svg"
+      }
+    }
+  },
+  {
+    "id": 79,
+    "slug": "terraform",
+    "name": "Terraform",
+    "category": "devops",
+    "lot": 11,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/079-terraform.png",
+        "32": "assets/png/32/079-terraform.png",
+        "64": "assets/png/64/079-terraform.png",
+        "256": "assets/png/256/079-terraform.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/079-terraform.svg",
+        "fidelity": "assets/svg/fidelity/079-terraform.svg"
+      }
+    }
+  },
+  {
+    "id": 80,
+    "slug": "opentofu",
+    "name": "OpenTofu",
+    "category": "devops",
+    "lot": 11,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/080-opentofu.png",
+        "32": "assets/png/32/080-opentofu.png",
+        "64": "assets/png/64/080-opentofu.png",
+        "256": "assets/png/256/080-opentofu.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/080-opentofu.svg",
+        "fidelity": "assets/svg/fidelity/080-opentofu.svg"
+      }
+    }
+  },
+  {
+    "id": 81,
+    "slug": "ansible",
+    "name": "Ansible",
+    "category": "devops",
+    "lot": 11,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/081-ansible.png",
+        "32": "assets/png/32/081-ansible.png",
+        "64": "assets/png/64/081-ansible.png",
+        "256": "assets/png/256/081-ansible.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/081-ansible.svg",
+        "fidelity": "assets/svg/fidelity/081-ansible.svg"
+      }
+    }
+  },
+  {
+    "id": 82,
+    "slug": "jenkins",
+    "name": "Jenkins",
+    "category": "devops",
+    "lot": 11,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/082-jenkins.png",
+        "32": "assets/png/32/082-jenkins.png",
+        "64": "assets/png/64/082-jenkins.png",
+        "256": "assets/png/256/082-jenkins.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/082-jenkins.svg",
+        "fidelity": "assets/svg/fidelity/082-jenkins.svg"
+      }
+    }
+  },
+  {
+    "id": 83,
+    "slug": "github-actions",
+    "name": "GitHub Actions",
+    "category": "devops",
+    "lot": 11,
+    "aliases": [
+      "gha"
+    ],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/083-github-actions.png",
+        "32": "assets/png/32/083-github-actions.png",
+        "64": "assets/png/64/083-github-actions.png",
+        "256": "assets/png/256/083-github-actions.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/083-github-actions.svg",
+        "fidelity": "assets/svg/fidelity/083-github-actions.svg"
+      }
+    }
+  },
+  {
+    "id": 84,
+    "slug": "gitlab",
+    "name": "GitLab",
+    "category": "devops",
+    "lot": 11,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/084-gitlab.png",
+        "32": "assets/png/32/084-gitlab.png",
+        "64": "assets/png/64/084-gitlab.png",
+        "256": "assets/png/256/084-gitlab.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/084-gitlab.svg",
+        "fidelity": "assets/svg/fidelity/084-gitlab.svg"
+      }
+    }
+  },
+  {
+    "id": 85,
+    "slug": "helm",
+    "name": "Helm",
+    "category": "devops",
+    "lot": 11,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/085-helm.png",
+        "32": "assets/png/32/085-helm.png",
+        "64": "assets/png/64/085-helm.png",
+        "256": "assets/png/256/085-helm.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/085-helm.svg",
+        "fidelity": "assets/svg/fidelity/085-helm.svg"
+      }
+    }
+  },
+  {
+    "id": 86,
+    "slug": "argo-cd",
+    "name": "Argo CD",
+    "category": "devops",
+    "lot": 11,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/086-argo-cd.png",
+        "32": "assets/png/32/086-argo-cd.png",
+        "64": "assets/png/64/086-argo-cd.png",
+        "256": "assets/png/256/086-argo-cd.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/086-argo-cd.svg",
+        "fidelity": "assets/svg/fidelity/086-argo-cd.svg"
+      }
+    }
+  },
+  {
+    "id": 87,
+    "slug": "prometheus",
+    "name": "Prometheus",
+    "category": "observability",
+    "lot": 12,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/087-prometheus.png",
+        "32": "assets/png/32/087-prometheus.png",
+        "64": "assets/png/64/087-prometheus.png",
+        "256": "assets/png/256/087-prometheus.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/087-prometheus.svg",
+        "fidelity": "assets/svg/fidelity/087-prometheus.svg"
+      }
+    }
+  },
+  {
+    "id": 88,
+    "slug": "grafana",
+    "name": "Grafana",
+    "category": "observability",
+    "lot": 12,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/088-grafana.png",
+        "32": "assets/png/32/088-grafana.png",
+        "64": "assets/png/64/088-grafana.png",
+        "256": "assets/png/256/088-grafana.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/088-grafana.svg",
+        "fidelity": "assets/svg/fidelity/088-grafana.svg"
+      }
+    }
+  },
+  {
+    "id": 89,
+    "slug": "opentelemetry",
+    "name": "OpenTelemetry",
+    "category": "observability",
+    "lot": 12,
+    "aliases": [
+      "otel"
+    ],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/089-opentelemetry.png",
+        "32": "assets/png/32/089-opentelemetry.png",
+        "64": "assets/png/64/089-opentelemetry.png",
+        "256": "assets/png/256/089-opentelemetry.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/089-opentelemetry.svg",
+        "fidelity": "assets/svg/fidelity/089-opentelemetry.svg"
+      }
+    }
+  },
+  {
+    "id": 90,
+    "slug": "sentry",
+    "name": "Sentry",
+    "category": "observability",
+    "lot": 12,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/090-sentry.png",
+        "32": "assets/png/32/090-sentry.png",
+        "64": "assets/png/64/090-sentry.png",
+        "256": "assets/png/256/090-sentry.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/090-sentry.svg",
+        "fidelity": "assets/svg/fidelity/090-sentry.svg"
+      }
+    }
+  },
+  {
+    "id": 91,
+    "slug": "zabbix",
+    "name": "Zabbix",
+    "category": "observability",
+    "lot": 12,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/091-zabbix.png",
+        "32": "assets/png/32/091-zabbix.png",
+        "64": "assets/png/64/091-zabbix.png",
+        "256": "assets/png/256/091-zabbix.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/091-zabbix.svg",
+        "fidelity": "assets/svg/fidelity/091-zabbix.svg"
+      }
+    }
+  },
+  {
+    "id": 92,
+    "slug": "grafana-loki",
+    "name": "Grafana Loki",
+    "category": "observability",
+    "lot": 12,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/092-grafana-loki.png",
+        "32": "assets/png/32/092-grafana-loki.png",
+        "64": "assets/png/64/092-grafana-loki.png",
+        "256": "assets/png/256/092-grafana-loki.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/092-grafana-loki.svg",
+        "fidelity": "assets/svg/fidelity/092-grafana-loki.svg"
+      }
+    }
+  },
+  {
+    "id": 93,
+    "slug": "datadog",
+    "name": "Datadog",
+    "category": "observability",
+    "lot": 12,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/093-datadog.png",
+        "32": "assets/png/32/093-datadog.png",
+        "64": "assets/png/64/093-datadog.png",
+        "256": "assets/png/256/093-datadog.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/093-datadog.svg",
+        "fidelity": "assets/svg/fidelity/093-datadog.svg"
+      }
+    }
+  },
+  {
+    "id": 94,
+    "slug": "jaeger",
+    "name": "Jaeger",
+    "category": "observability",
+    "lot": 12,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/094-jaeger.png",
+        "32": "assets/png/32/094-jaeger.png",
+        "64": "assets/png/64/094-jaeger.png",
+        "256": "assets/png/256/094-jaeger.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/094-jaeger.svg",
+        "fidelity": "assets/svg/fidelity/094-jaeger.svg"
+      }
+    }
+  },
+  {
+    "id": 95,
+    "slug": "tauri",
+    "name": "Tauri",
+    "category": "desktop",
+    "lot": 13,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/095-tauri.png",
+        "32": "assets/png/32/095-tauri.png",
+        "64": "assets/png/64/095-tauri.png",
+        "256": "assets/png/256/095-tauri.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/095-tauri.svg",
+        "fidelity": "assets/svg/fidelity/095-tauri.svg"
+      }
+    }
+  },
+  {
+    "id": 96,
+    "slug": "electron",
+    "name": "Electron",
+    "category": "desktop",
+    "lot": 13,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/096-electron.png",
+        "32": "assets/png/32/096-electron.png",
+        "64": "assets/png/64/096-electron.png",
+        "256": "assets/png/256/096-electron.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/096-electron.svg",
+        "fidelity": "assets/svg/fidelity/096-electron.svg"
+      }
+    }
+  },
+  {
+    "id": 97,
+    "slug": "flutter",
+    "name": "Flutter",
+    "category": "desktop",
+    "lot": 13,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/097-flutter.png",
+        "32": "assets/png/32/097-flutter.png",
+        "64": "assets/png/64/097-flutter.png",
+        "256": "assets/png/256/097-flutter.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/097-flutter.svg",
+        "fidelity": "assets/svg/fidelity/097-flutter.svg"
+      }
+    }
+  },
+  {
+    "id": 98,
+    "slug": "react-native",
+    "name": "React Native",
+    "category": "desktop",
+    "lot": 13,
+    "aliases": [
+      "reactnative"
+    ],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/098-react-native.png",
+        "32": "assets/png/32/098-react-native.png",
+        "64": "assets/png/64/098-react-native.png",
+        "256": "assets/png/256/098-react-native.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/098-react-native.svg",
+        "fidelity": "assets/svg/fidelity/098-react-native.svg"
+      }
+    }
+  },
+  {
+    "id": 99,
+    "slug": "android",
+    "name": "Android",
+    "category": "desktop",
+    "lot": 13,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/099-android.png",
+        "32": "assets/png/32/099-android.png",
+        "64": "assets/png/64/099-android.png",
+        "256": "assets/png/256/099-android.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/099-android.svg",
+        "fidelity": "assets/svg/fidelity/099-android.svg"
+      }
+    }
+  },
+  {
+    "id": 100,
+    "slug": "ios",
+    "name": "iOS",
+    "category": "desktop",
+    "lot": 13,
+    "aliases": [
+      "iphone os"
+    ],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/100-ios.png",
+        "32": "assets/png/32/100-ios.png",
+        "64": "assets/png/64/100-ios.png",
+        "256": "assets/png/256/100-ios.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/100-ios.svg",
+        "fidelity": "assets/svg/fidelity/100-ios.svg"
+      }
+    }
+  },
+  {
+    "id": 101,
+    "slug": "qt",
+    "name": "Qt",
+    "category": "desktop",
+    "lot": 13,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/101-qt.png",
+        "32": "assets/png/32/101-qt.png",
+        "64": "assets/png/64/101-qt.png",
+        "256": "assets/png/256/101-qt.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/101-qt.svg",
+        "fidelity": "assets/svg/fidelity/101-qt.svg"
+      }
+    }
+  },
+  {
+    "id": 102,
+    "slug": "dotnet",
+    "name": ".NET",
+    "category": "desktop",
+    "lot": 13,
+    "aliases": [
+      ".net",
+      "net"
+    ],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/102-dotnet.png",
+        "32": "assets/png/32/102-dotnet.png",
+        "64": "assets/png/64/102-dotnet.png",
+        "256": "assets/png/256/102-dotnet.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/102-dotnet.svg",
+        "fidelity": "assets/svg/fidelity/102-dotnet.svg"
+      }
+    }
+  },
+  {
+    "id": 103,
+    "slug": "pytorch",
+    "name": "PyTorch",
+    "category": "ai",
+    "lot": 14,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/103-pytorch.png",
+        "32": "assets/png/32/103-pytorch.png",
+        "64": "assets/png/64/103-pytorch.png",
+        "256": "assets/png/256/103-pytorch.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/103-pytorch.svg",
+        "fidelity": "assets/svg/fidelity/103-pytorch.svg"
+      }
+    }
+  },
+  {
+    "id": 104,
+    "slug": "tensorflow",
+    "name": "TensorFlow",
+    "category": "ai",
+    "lot": 14,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/104-tensorflow.png",
+        "32": "assets/png/32/104-tensorflow.png",
+        "64": "assets/png/64/104-tensorflow.png",
+        "256": "assets/png/256/104-tensorflow.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/104-tensorflow.svg",
+        "fidelity": "assets/svg/fidelity/104-tensorflow.svg"
+      }
+    }
+  },
+  {
+    "id": 105,
+    "slug": "hugging-face",
+    "name": "Hugging Face",
+    "category": "ai",
+    "lot": 14,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/105-hugging-face.png",
+        "32": "assets/png/32/105-hugging-face.png",
+        "64": "assets/png/64/105-hugging-face.png",
+        "256": "assets/png/256/105-hugging-face.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/105-hugging-face.svg",
+        "fidelity": "assets/svg/fidelity/105-hugging-face.svg"
+      }
+    }
+  },
+  {
+    "id": 106,
+    "slug": "openai",
+    "name": "OpenAI",
+    "category": "ai",
+    "lot": 14,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/106-openai.png",
+        "32": "assets/png/32/106-openai.png",
+        "64": "assets/png/64/106-openai.png",
+        "256": "assets/png/256/106-openai.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/106-openai.svg",
+        "fidelity": "assets/svg/fidelity/106-openai.svg"
+      }
+    }
+  },
+  {
+    "id": 107,
+    "slug": "ollama",
+    "name": "Ollama",
+    "category": "ai",
+    "lot": 14,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/107-ollama.png",
+        "32": "assets/png/32/107-ollama.png",
+        "64": "assets/png/64/107-ollama.png",
+        "256": "assets/png/256/107-ollama.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/107-ollama.svg",
+        "fidelity": "assets/svg/fidelity/107-ollama.svg"
+      }
+    }
+  },
+  {
+    "id": 108,
+    "slug": "langchain",
+    "name": "LangChain",
+    "category": "ai",
+    "lot": 14,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/108-langchain.png",
+        "32": "assets/png/32/108-langchain.png",
+        "64": "assets/png/64/108-langchain.png",
+        "256": "assets/png/256/108-langchain.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/108-langchain.svg",
+        "fidelity": "assets/svg/fidelity/108-langchain.svg"
+      }
+    }
+  },
+  {
+    "id": 109,
+    "slug": "jupyter",
+    "name": "Jupyter",
+    "category": "ai",
+    "lot": 14,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/109-jupyter.png",
+        "32": "assets/png/32/109-jupyter.png",
+        "64": "assets/png/64/109-jupyter.png",
+        "256": "assets/png/256/109-jupyter.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/109-jupyter.svg",
+        "fidelity": "assets/svg/fidelity/109-jupyter.svg"
+      }
+    }
+  },
+  {
+    "id": 110,
+    "slug": "scikit-learn",
+    "name": "Scikit-learn",
+    "category": "ai",
+    "lot": 14,
+    "aliases": [
+      "sklearn"
+    ],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/110-scikit-learn.png",
+        "32": "assets/png/32/110-scikit-learn.png",
+        "64": "assets/png/64/110-scikit-learn.png",
+        "256": "assets/png/256/110-scikit-learn.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/110-scikit-learn.svg",
+        "fidelity": "assets/svg/fidelity/110-scikit-learn.svg"
+      }
+    }
+  },
+  {
+    "id": 111,
+    "slug": "vs-code",
+    "name": "VS Code",
+    "category": "tools",
+    "lot": 15,
+    "aliases": [
+      "vscode",
+      "visual studio code"
+    ],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/111-vs-code.png",
+        "32": "assets/png/32/111-vs-code.png",
+        "64": "assets/png/64/111-vs-code.png",
+        "256": "assets/png/256/111-vs-code.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/111-vs-code.svg",
+        "fidelity": "assets/svg/fidelity/111-vs-code.svg"
+      }
+    }
+  },
+  {
+    "id": 112,
+    "slug": "visual-studio",
+    "name": "Visual Studio",
+    "category": "tools",
+    "lot": 15,
+    "aliases": [
+      "vs"
+    ],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/112-visual-studio.png",
+        "32": "assets/png/32/112-visual-studio.png",
+        "64": "assets/png/64/112-visual-studio.png",
+        "256": "assets/png/256/112-visual-studio.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/112-visual-studio.svg",
+        "fidelity": "assets/svg/fidelity/112-visual-studio.svg"
+      }
+    }
+  },
+  {
+    "id": 113,
+    "slug": "intellij-idea",
+    "name": "IntelliJ IDEA",
+    "category": "tools",
+    "lot": 15,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/113-intellij-idea.png",
+        "32": "assets/png/32/113-intellij-idea.png",
+        "64": "assets/png/64/113-intellij-idea.png",
+        "256": "assets/png/256/113-intellij-idea.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/113-intellij-idea.svg",
+        "fidelity": "assets/svg/fidelity/113-intellij-idea.svg"
+      }
+    }
+  },
+  {
+    "id": 114,
+    "slug": "neovim",
+    "name": "Neovim",
+    "category": "tools",
+    "lot": 15,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/114-neovim.png",
+        "32": "assets/png/32/114-neovim.png",
+        "64": "assets/png/64/114-neovim.png",
+        "256": "assets/png/256/114-neovim.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/114-neovim.svg",
+        "fidelity": "assets/svg/fidelity/114-neovim.svg"
+      }
+    }
+  },
+  {
+    "id": 115,
+    "slug": "postman",
+    "name": "Postman",
+    "category": "tools",
+    "lot": 15,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/115-postman.png",
+        "32": "assets/png/32/115-postman.png",
+        "64": "assets/png/64/115-postman.png",
+        "256": "assets/png/256/115-postman.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/115-postman.svg",
+        "fidelity": "assets/svg/fidelity/115-postman.svg"
+      }
+    }
+  },
+  {
+    "id": 116,
+    "slug": "playwright",
+    "name": "Playwright",
+    "category": "tools",
+    "lot": 15,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/116-playwright.png",
+        "32": "assets/png/32/116-playwright.png",
+        "64": "assets/png/64/116-playwright.png",
+        "256": "assets/png/256/116-playwright.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/116-playwright.svg",
+        "fidelity": "assets/svg/fidelity/116-playwright.svg"
+      }
+    }
+  },
+  {
+    "id": 117,
+    "slug": "vitest",
+    "name": "Vitest",
+    "category": "tools",
+    "lot": 15,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/117-vitest.png",
+        "32": "assets/png/32/117-vitest.png",
+        "64": "assets/png/64/117-vitest.png",
+        "256": "assets/png/256/117-vitest.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/117-vitest.svg",
+        "fidelity": "assets/svg/fidelity/117-vitest.svg"
+      }
+    }
+  },
+  {
+    "id": 118,
+    "slug": "jest",
+    "name": "Jest",
+    "category": "tools",
+    "lot": 15,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/118-jest.png",
+        "32": "assets/png/32/118-jest.png",
+        "64": "assets/png/64/118-jest.png",
+        "256": "assets/png/256/118-jest.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/118-jest.svg",
+        "fidelity": "assets/svg/fidelity/118-jest.svg"
+      }
+    }
+  },
+  {
+    "id": 119,
+    "slug": "fedora",
+    "name": "Fedora",
+    "category": "os",
+    "lot": 16,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/119-fedora.png",
+        "32": "assets/png/32/119-fedora.png",
+        "64": "assets/png/64/119-fedora.png",
+        "256": "assets/png/256/119-fedora.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/119-fedora.svg",
+        "fidelity": "assets/svg/fidelity/119-fedora.svg"
+      }
+    }
+  },
+  {
+    "id": 120,
+    "slug": "opensuse",
+    "name": "openSUSE",
+    "category": "os",
+    "lot": 16,
+    "aliases": [
+      "open suse",
+      "open-suse"
+    ],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/120-opensuse.png",
+        "32": "assets/png/32/120-opensuse.png",
+        "64": "assets/png/64/120-opensuse.png",
+        "256": "assets/png/256/120-opensuse.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/120-opensuse.svg",
+        "fidelity": "assets/svg/fidelity/120-opensuse.svg"
+      }
+    }
+  },
+  {
+    "id": 121,
+    "slug": "kali-linux",
+    "name": "Kali Linux",
+    "category": "os",
+    "lot": 16,
+    "aliases": [
+      "kali"
+    ],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/121-kali-linux.png",
+        "32": "assets/png/32/121-kali-linux.png",
+        "64": "assets/png/64/121-kali-linux.png",
+        "256": "assets/png/256/121-kali-linux.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/121-kali-linux.svg",
+        "fidelity": "assets/svg/fidelity/121-kali-linux.svg"
+      }
+    }
+  },
+  {
+    "id": 122,
+    "slug": "linux-mint",
+    "name": "Linux Mint",
+    "category": "os",
+    "lot": 16,
+    "aliases": [
+      "mint"
+    ],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/122-linux-mint.png",
+        "32": "assets/png/32/122-linux-mint.png",
+        "64": "assets/png/64/122-linux-mint.png",
+        "256": "assets/png/256/122-linux-mint.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/122-linux-mint.svg",
+        "fidelity": "assets/svg/fidelity/122-linux-mint.svg"
+      }
+    }
+  },
+  {
+    "id": 123,
+    "slug": "unity",
+    "name": "Unity",
+    "category": "games",
+    "lot": 16,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/123-unity.png",
+        "32": "assets/png/32/123-unity.png",
+        "64": "assets/png/64/123-unity.png",
+        "256": "assets/png/256/123-unity.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/123-unity.svg",
+        "fidelity": "assets/svg/fidelity/123-unity.svg"
+      }
+    }
+  },
+  {
+    "id": 124,
+    "slug": "unreal-engine",
+    "name": "Unreal Engine",
+    "category": "games",
+    "lot": 16,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/124-unreal-engine.png",
+        "32": "assets/png/32/124-unreal-engine.png",
+        "64": "assets/png/64/124-unreal-engine.png",
+        "256": "assets/png/256/124-unreal-engine.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/124-unreal-engine.svg",
+        "fidelity": "assets/svg/fidelity/124-unreal-engine.svg"
+      }
+    }
+  },
+  {
+    "id": 125,
+    "slug": "godot",
+    "name": "Godot",
+    "category": "games",
+    "lot": 16,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/125-godot.png",
+        "32": "assets/png/32/125-godot.png",
+        "64": "assets/png/64/125-godot.png",
+        "256": "assets/png/256/125-godot.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/125-godot.svg",
+        "fidelity": "assets/svg/fidelity/125-godot.svg"
+      }
+    }
+  },
+  {
+    "id": 126,
+    "slug": "blender",
+    "name": "Blender",
+    "category": "games",
+    "lot": 16,
+    "aliases": [],
+    "assets": {
+      "png": {
+        "16": "assets/png/16/126-blender.png",
+        "32": "assets/png/32/126-blender.png",
+        "64": "assets/png/64/126-blender.png",
+        "256": "assets/png/256/126-blender.png"
+      },
+      "svg": {
+        "vector": "assets/svg/vector/126-blender.svg",
+        "fidelity": "assets/svg/fidelity/126-blender.svg"
+      }
+    }
   }
 ]

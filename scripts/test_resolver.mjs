@@ -1,0 +1,24 @@
+import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
+import { buildStackIndex, resolveIcon, resolveStack, normalizeStack, assetPath } from '../src/resolve.mjs';
+
+const registry = JSON.parse(readFileSync(new URL('../registry.json', import.meta.url), 'utf8'));
+const index = buildStackIndex(registry);
+assert.equal(registry.length, 126);
+assert.equal(index.get('csharp').slug,'csharp');
+assert.equal(normalizeStack('C++'), 'cpp');
+assert.equal(resolveStack(index, 'GCP')?.slug, 'google-cloud');
+assert.equal(resolveStack(index, 'AWS')?.slug, 'aws');
+assert.equal(resolveStack(index, 'C#')?.slug, 'csharp');
+assert.equal(resolveStack(index, 'C++')?.slug, 'cpp');
+assert.equal(resolveStack(index, 'Next.js')?.slug, 'next-js');
+assert.equal(resolveStack(index, 'NextJS')?.slug, 'next-js');
+assert.equal(resolveStack(index, 'TailwindCSS')?.slug, 'tailwind-css');
+assert.equal(resolveStack(index, 'Mac OS X')?.slug, 'macos');
+assert.equal(resolveStack(index, 'does-not-exist'), null);
+assert.equal(resolveIcon(index,'Next.js',{format:'png',size:64}), 'assets/png/64/013-next-js.png');
+assert.equal(resolveIcon(index,'C++',{format:'svg',svgVariant:'vector'}), 'assets/svg/vector/022-cpp.svg');
+assert.equal(resolveIcon(index,'missing stack'), null);
+assert.throws(()=>assetPath(registry[0],{size:12}),RangeError);
+assert.throws(()=>assetPath(registry[0],{format:'svg',svgVariant:'raster'}),RangeError);
+console.log(`PASS: ${registry.length} catalog entries and common stack alias resolution`);

@@ -1,14 +1,10 @@
-# AXR Icons — AI-assisted illustration contract
+# AI icon extension contract
 
-**Canonical workflow: image first, SVG second.** Do NOT write the final icon's SVG geometry from a language-model text prompt.
-
-1. Read `docs/BATCH-WORKFLOW.md`, reference the *flat, minimalist six-tile moodboard* and the existing approved PNGs, not only the old unapproved SVGs.
-2. Generate exactly **six** different technology mascots in one equally spaced 3×2 sheet, never thirty.
-3. Require 2D flat vector-like illustration, no 3D, gloss, lighting bloom, typography, raster noise or vendor logo tracing.
-4. Obtain visual approval and extract six separate transparent PNG files.
-5. Trace from those PNGs to actual closed SVG paths with `scripts/sheet_to_assets.py`. Clean the resulting paths and restore intentionally different colors; automated tracing can lose details.
-6. Compare PNG/SVG side by side at **16, 24, 32, 64 px**. Reject low-quality contours and tiny facial details that turn into blobs.
-7. Stage the output separately, never overwrite `icons/` without approval. Approved assets must remain separately available as PNG and SVG.
-8. Update the README six-at-a-time and keep the complete 30-icon production gallery side by side.
-
-**Important:** raster inside SVG (`<image>` + base64) is not vectorization. A traced SVG made of hundreds of noisy paths is also not an acceptable final design.
+- Use PNG-first design. Do not author the final art as ad hoc XML paths.
+- Generate exactly six icons per batch with common lighting, perspective, margins and shape language.
+- No arbitrary AI gloss, uncontrolled 3D, noise, fragile microdetails or traced third-party logos.
+- The existing 126 **PNG/256** assets are reference imagery; the auto-traced vector layer is not the reference for visual fidelity.
+- Only an approved master can be split and exported in multiple sizes.
+- Vectors must contain editable paths and no embedded PNGs. Fidelity SVGs should be labeled as raster wrappers if retained.
+- Validate every added asset, review 16/24/32/64px, and record why any visual exception exists.
+- Publish only after repository-owner review.
